@@ -1,0 +1,50 @@
+:root {
+    --body-font: 'Chilanka', cursive;
+    --heading-font: 'Chilanka', cursive;
+    --secondary-font: 'Montserrat', sans-serif;
+    --title-font-color: #727272;
+    --font-bold: #41403e;
+    --color-background: #F9F3EC;
+    --color: #DEAD6F;
+    --color-border: #dbdbdb;  
+} 
+.img-title div img{
+    width: 140px;
+}
+.img-title{
+    display: flex;
+    align-items: center;
+}
+.card-title h5 a{
+    text-decoration: none;
+    color: #111;
+    margin-left: 20px;
+}
+.replace-font {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+}
+.btn-flex{
+
+}
+.add-to-cart{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 16px;
+    background-color: var(--font-bold);
+    color: #fff;
+}
+.remove-item{
+    border: none;
+    background-color: transparent;
+}
+
+.remove-item i{
+    font-size: 1.3rem;
+    margin-left: 20px;
+}   
+
+.historyOrder {
+    font-family: var(--secondary-font);
+}
+
