@@ -1,0 +1,104 @@
+:root {
+    --font-body: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+}
+.logo-image img{
+    width: 180px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.header-search button{
+    border: none;
+    background-color: transparent;
+}
+.header-search input {
+    border: none;
+    background-color: transparent;
+}
+.header-search input:focus {
+    outline: none;
+}
+.header-search {
+    /* border: 1px black solid; */
+    border-radius: 20px;
+    padding: 6.5px 10px;
+    background-color: #f2f2f2;
+}
+
+.cart-user ul li a svg.lucide {
+    color: #111;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+}
+
+.footer-items ul li a {
+    text-decoration: none;
+    color: #111;
+    line-height: 2.3;
+}
+
+.footer-items ul li a:hover {
+    color: #c46a2f;
+}
+.header-outstanding {
+    background-color: #CFD3CB;
+}
+.start-item img {
+    width: 103%;
+}
+.btn_add--checkout {
+    background-color: #fff;
+    /* border: #111 1px solid; */
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    display: none;
+    transition: all;
+}
+.btn_add--checkout:hover {
+    background-color: #c46a2f;
+    color: #fff;
+}
+.image-product{
+    position: relative;
+}
+
+.image-product:hover .btn_add--checkout{
+    display: block;
+}
+.image-product:hover .image-product-links>img{
+    opacity: 0.85;
+    z-index: 2;
+}
+.image-product-links>img {
+    width: 104%;
+}
+.form-status {
+    background-color: #f2f2f2;
+}
+.input-email input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+.input-email input{
+    
+}
